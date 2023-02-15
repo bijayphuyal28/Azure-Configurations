@@ -1,6 +1,6 @@
 # Enabling Multi-Factor Authentication using Conditional Access Policy in Azure Active Directory
 
-Multi-factor authentication (MFA) is a security feature of Microsoft Azure Active Directory that requires users to provide two or more verification methods to access a resource. This feature prompts the users for the additional form of identity verification such as something users knows or something users have or something the users are amd also can be integrated with (Self Service Password Reset) to reduce IT support requests related to forgotten passwords.
+Multi-factor authentication (MFA) is a security feature of Microsoft Azure Active Directory that requires users to provide two or more verification methods to access a resource. This feature prompts the users for the additional form of identity verification such as something users knows or something users have or something the users are and also can be integrated with (Self Service Password Reset) to reduce IT support requests related to forgotten passwords.
 
 Various methods of verifications are available within Multi-factor authentication. Some of the available methods are listed below:
 
