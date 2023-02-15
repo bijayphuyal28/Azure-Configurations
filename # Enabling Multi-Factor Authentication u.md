@@ -20,7 +20,7 @@ There are few prerequisities you need to consider for implementing MFA in your e
 
 The steps for the implementation of MFA is outlined below:
 
-1. Log into Azure Portal (aad.portal.azure.com) using user account having administrator access.
+1. Log into Azure AD Admin Centre (aad.portal.azure.com) using user account having administrator access.
 2. Click on Azure 
 3. Click on Conditional Access under the Security section.
 3. Click on New policy to create a new Conditional Access policy.
