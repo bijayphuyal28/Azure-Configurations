@@ -21,18 +21,18 @@ There are few prerequisities you need to consider for implementing MFA in your e
 The steps for the implementation of MFA is outlined below:
 
 1. Log into Azure AD Admin Centre (aad.portal.azure.com) using user account having administrator access.
-2. Click on Azure 
+2. Click on Azure Active Directory.
 3. Click on Conditional Access under the Security section.
 3. Click on New policy to create a new Conditional Access policy.
-4. Give the policy a name and a description.
-5. Under Assignments, select Users and groups and choose the users that you want to apply the policy to.
-6. Under Cloud apps or actions, select the cloud app that you want to apply the policy to.
-7. Under Conditions, select the conditions that you want to apply to the policy. For example, you can require MFA if the user is accessing the app from outside of the corporate network.
-8. Under Access controls, select Grant, and then select Grant access and require multi-factor authentication.
-9. Click on Enable policy to save the policy.
+4. Give your policy a name.
+5. Under Assignments, select Users and groups and choose the users/groups that you want to apply the policy to. You can also exclude specific users, groups or        directory roles.
+6. Under Cloud apps or actions, select the cloud app that you want to apply the policy to. You can also exclude selected cloud apps to expempt from the policy.
+7. Under Conditions, select the conditions that you want to apply to the policy. For example, you can require MFA if the user is accessing the app from outside of the corporate network. 
+8. Under Access controls, select Grant, and then select Grant access and require multi-factor authentication. 
+9. Enable the policy to "Report-Only" and click on create. 
 
-Once the policy is saved, it will be applied to the selected users when they access the selected app. They will be prompted to set up MFA the next time they sign in.
+These steps will now configure the conditional access policy for Multi Factor Authentication. Test your Conditional Access Policies to only specific subsets of users or groups and verify that the Multi Factor Authentication has been configured successfully. You can then roll out this security feature of Azure AD on a tenant level by enabling the policy in "On" mode.
 
 ## Conclusion
 
-Enabling MFA using Conditional Access policy is a powerful security feature that can greatly improve the security of your Azure AD tenant. By requiring users to provide an additional verification factor, you can help prevent unauthorized access to sensitive resources. By following the steps outlined in this guide, you can quickly and easily enable MFA for your users.
+Enabling MFA through Conditional Access policies is a powerful security feature that can significantly improve the security of your Azure AD tenant. By requiring users to provide an additional verification factor, you can help prevent unauthorised access to sensitive resources. You can enable MFA for your users quickly and easily by following the steps outlined in this guide.
