@@ -1,4 +1,4 @@
-# Configurations of Microsoft Azure
+# Configurations of Microsoft Azure AD
 
 This Repository contains documentation on various Azure AD configurations.
 
@@ -11,7 +11,7 @@ The following configurations are documented in this repository:
 
 # Usage
 
-You can use this documentation as a reference while performing various configurations within Microsoft Azure Cloud. Each document has a step-by-step procedures on performing various configurations tasks of Microsoft Azure.
+You can use this documentation as a reference while performing various configurations within Microsoft Azure AD. Each document has a step-by-step procedures on performing various configurations tasks of Azure AD.
 
 To use this repository, you can simply browse the documentations you are interested in and follow the documentation.
 
