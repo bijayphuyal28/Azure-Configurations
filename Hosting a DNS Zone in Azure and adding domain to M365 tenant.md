@@ -1,5 +1,3 @@
-# Hosting a DNS Zone in Azure and adding domain to Microsoft 365 tenant
-
 # Hosting a DNS Zone in Azure and Adding Domain to Microsoft 365 Tenant
 
 A DNS zone is a portion of the DNS namespace that is used to host the DNS records for a particular domain. To host DNS Zone in Azure DNS, you need to create a DNS zone for that domain name in Microsoft Azure and then the records can be added inside the DNS Zone.
