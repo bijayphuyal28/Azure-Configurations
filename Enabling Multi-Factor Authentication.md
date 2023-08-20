@@ -33,6 +33,4 @@ The steps for the implementation of MFA is outlined below:
 
 These steps will now configure the conditional access policy for Multi Factor Authentication. Test your Conditional Access Policies to only specific subsets of users or groups and verify that the Multi Factor Authentication has been configured successfully. You can then roll out this security feature of Azure AD on a tenant level by enabling the policy in "On" mode.
 
-## Conclusion
 
-Enabling MFA through Conditional Access policies is a powerful security feature that can significantly improve the security of your Azure AD tenant. By requiring users to provide an additional verification factor, you can help prevent unauthorised access to sensitive resources. You can enable MFA for your users quickly and easily by following the steps outlined in this guide.
