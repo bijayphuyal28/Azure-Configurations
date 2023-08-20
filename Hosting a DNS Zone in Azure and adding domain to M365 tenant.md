@@ -16,6 +16,7 @@ Before you begin, you should have the following:
 ## Azure Services Used:
 
 - Azure DNS
+- Resource Groups
 
 ## Step 1: Create a DNS Zone in Azure
 
